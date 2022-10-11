@@ -16,6 +16,7 @@ https://mammimia.github.io/minecraft-clone/
   - Drei
   - Fiber
 - Nanoid
+- Zustand
 
 ## How To Play
 
