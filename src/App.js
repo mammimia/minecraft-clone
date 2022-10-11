@@ -1,6 +1,7 @@
 import { Physics } from "@react-three/cannon";
 import { Sky } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
+import { FPV } from "./component/FPV";
 import { Ground } from "./component/Ground";
 import { Player } from "./component/Player";
 
@@ -13,8 +14,10 @@ function App() {
         <Physics>
           <Player />
           <Ground />
+          <FPV />
         </Physics>
       </Canvas>
+      <div className="absolute centered cursor">+</div>
     </>
   );
 }

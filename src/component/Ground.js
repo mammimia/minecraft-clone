@@ -1,6 +1,7 @@
 import { usePlane } from "@react-three/cannon";
 import { NearestFilter, RepeatWrapping } from "three";
 import { groundTexture } from "../images/textures";
+import { FPV } from "./FPV";
 
 export const Ground = () => {
   const [ref] = usePlane(() => ({
