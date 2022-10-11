@@ -1,6 +1,7 @@
 {
   "name": "minecraft-clone",
   "version": "0.1.0",
+  "homepage": "https://mammimia.github.io/minecraft-clone",
   "private": true,
   "dependencies": {
     "@react-three/cannon": "^6.4.0",
@@ -18,6 +19,8 @@
     "zustand": "^4.1.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d bugit remote addild",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -40,5 +43,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
