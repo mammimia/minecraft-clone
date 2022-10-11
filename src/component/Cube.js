@@ -44,7 +44,7 @@ export const Cube = ({ position, texture }) => {
         }
       }}
     >
-      <boxBufferGeometry attach="geometry" />
+      <boxGeometry attach="geometry" />
       <meshStandardMaterial map={activeTexture} attach="material" />
     </mesh>
   );
