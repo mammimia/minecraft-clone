@@ -22,6 +22,8 @@ https://mammimia.github.io/minecraft-clone/
 
 You can use the keys below to play the game;
 
+- Mouse Left -> Add Block
+- Alt + Mouse Left -> Remove Block
 - W -> Move Forward
 - S -> Move Backward
 - A -> Move Left
